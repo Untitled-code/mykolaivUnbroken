@@ -1,0 +1,322 @@
+
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    margin:0;
+}
+
+.mobile-only {
+    display: none;
+}
+/* 
+#header {
+    height: 100vh;
+    background-image: url('../img/Shevchenko.JPG');
+    background-size: cover;
+} */
+
+
+/* Header style */
+#title-wrapper {
+    color:#ffffff;
+    margin-bottom: 0px;
+}
+
+#title-wrapper h1 {
+    color:#ffffff;
+    line-height: 1;
+    text-align: center;
+    font-size: calc(60px + 3vw);
+    margin-bottom: 0;
+    margin-top: 0;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px #464646;
+    font-family: 'Times New Roman', Times, serif;
+}
+#title-wrapper h3  {
+    color:#ffffff;
+    margin-top: 5px;
+    text-align: center;
+    font-size: calc(25px + 1vw);
+    font-family: sans-serif;
+    line-height: 1.2;
+    text-shadow: 1px 1px 3px #303030;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.date {
+    padding: 2px 5px;
+    background-color: #2e2e2eb9;
+    color: rgba(255, 255, 255, 0.94)
+}
+
+
+.two-col-grid {
+    display:grid; 
+    grid-template-columns: 1fr 1fr;
+    /* grid-gap: 20px; */
+    margin-bottom: 30px;
+}
+
+.left-oriented {
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.small-pic {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.big-pic {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+.step img {
+    max-width: 100%;
+}
+
+
+/* Scrollytelling */
+#scroll {        
+    position: relative;
+    width: 100%;
+    margin: 0 auto 50px auto;    
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr;
+}
+
+.scroll__graphic {  
+    grid-column: 1/-1;      
+    width: 100%;  
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 1em;
+    max-height: 100vh;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    z-index:0;
+}   
+
+.scroll__graphic .mobile-title {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    z-index: 10;
+    margin-top: 50px;
+    
+}
+
+
+.scroll__graphic #map {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    grid-column:1/-1;
+    grid-row: 1/2;
+}
+
+
+
+
+.mapboxgl-popup-content {
+    line-height: 1.4;
+    background-color: #f26444dd;
+    color: white;
+    font-size: 16px;
+}
+
+.mapboxgl-popup-tip {
+    align-self: center;
+    border-bottom: none;
+    border-top-color: #f26444dd !important
+}
+
+.mapboxgl-popup-close-button  {
+    position: relative;
+    color: white;
+}
+
+.mapboxgl-popup-close-button::before {
+    content: "Зрозуміло ";
+}
+
+
+.scroll__graphic #cover-picture {
+    grid-column:1/-1;
+    grid-row: 1/2;
+    z-index:-1;
+    background-position: 50% 50%;
+}
+
+
+.scroll__graphic video {
+    height: 100vh;
+    width: 100%;
+    object-fit: fill;
+    grid-column:1/-1;
+    grid-row: 1/2;
+    z-index:-1;
+
+    }
+
+.scroll__graphic  #cover-picture {
+    width: 100%; 
+    height: 100vh; 
+    background-image: url('../img/misto_z_pagorba.JPG');
+    background-size: cover;
+    z-index:0;
+}
+
+
+
+.scroll__graphic  #cover-video {
+    z-index:20;
+    min-height:100%;
+    min-width: 100%;
+}
+
+.scroll__text {     
+    grid-column: 1/-1;          
+    width: 80%; 
+    max-width: 800px;   
+    margin: auto;
+    position:relative;
+    z-index:10;
+    pointer-events: none;
+}
+
+
+.step {
+    width: 100%;
+    height: max-content;
+    min-height: 50px;
+    margin: 0 auto 140vh auto;
+    font-family: sans-serif;
+    line-height: 1.6;
+    pointer-events: auto;
+    display: block;
+} 
+
+
+.step > div {
+    font-size: 18px;
+    background-color:#fdfdfde2;
+    border: 0.5px solid grey;
+    padding: 5px 10px;
+}
+
+.step h2 {
+    font-size: 20px;
+    text-shadow: 1px 1px 3px #ffffff;
+}
+
+.step h3 {
+    font-size: 20px;
+    text-shadow: 1px 1px 3px #ffffff;
+}
+
+
+.step p {
+   
+    margin-top: 0;
+    margin-bottom: 20px;
+    height: max-content;
+    padding:2px;
+}
+
+
+.step .grid-wrapper {
+    display: grid;
+    margin: 10px 0;
+    grid-template-columns: 2.5fr 1fr;
+}
+
+figcaption {
+    /* max-width: 80%; */
+    font-size: 13px;
+    font-style: italic;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    /* background-color: rgba(255, 255, 255, 0.929); */
+}
+
+iframe {
+    margin: 20px 0;
+}
+
+
+.show-popup, .show-point-popup {
+    background-color: #CAA7A6;
+    padding: 0 1px;
+    cursor: pointer;
+}
+
+
+.credits {
+    font-style: italic;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 2px solid #F26344;;
+    padding-bottom: 1px;
+}
+
+a:hover {
+    color: #F26344;
+    border-bottom: 2px solid #F26344;
+}
+
+@media(max-width: 800px){
+    .text-wrapper, .image-wrapper {
+        display: block;
+    }
+
+    .scroll__graphic #map {
+        width: 100%;
+        height: 50vh;
+    }
+
+    #scroll {
+        display: block;
+    }
+
+    .scroll__graphic { 
+        z-index: 20;
+     }
+
+     .scroll__graphic  #cover-picture {
+        height: 50vh; 
+    }
+
+    .scroll__graphic video {
+        height: 50vh;   
+    }
+
+     .scroll__text {  
+        z-index: 10;
+        width: 96%; 
+    }
+
+    .step {
+        margin-bottom: 40vh;
+    }
+
+    .two-col-grid {
+        display:block; 
+    }
+
+    .mobile-only {
+        display: block;
+    }
+}
+
+
