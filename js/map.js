@@ -43,7 +43,11 @@ map.on("click", function(e){
 
 map.on('load', function () {
 
-
+    // This will log the message "Adding source to map:" along with the arguments of the map.addSource() function to the console before executing the function.
+    console.log("Adding source to map:", "polygons", {
+        "type": "geojson",
+        'data': "data/chernihiv_poly.geojson"
+    });
 
     map.addSource("polygons", {
         "type": "geojson",
@@ -73,6 +77,23 @@ map.on('load', function () {
           
   
     //polygon stroke
+    console.log("Adding polygon layer to map", map.addLayer({
+        "id": "polygons-layer",
+        'type': 'fill',
+        "source": "polygons",
+        'paint': {
+            'fill-color': [
+                'match',
+                ['get', 'side'],
+                'ru', redColor,
+                'ua','#00A68E',
+                'grey'
+            ],
+            'fill-opacity': 0.5
+            // 'line-width': 2
+        }
+    }));
+
     map.addLayer({
         "id": "polygons-layer",
         'type': 'fill',
@@ -89,7 +110,6 @@ map.on('load', function () {
             // 'line-width': 2
         }
     });
-
 
   map.addLayer({
         "id": "projects-pulse",
@@ -279,7 +299,7 @@ map.on('load', function () {
             'text-color': 'white',         
         }
     });
-
+    console.log("Filtering polygon layer to map", map.setFilter(  'polygons-layer', ["match", ["get", "id"], ["p1"], true, false]))
     map.setFilter(  'polygons-layer', ["match", ["get", "id"], ["p1"], true, false])
     map.setFilter(  'points-layer', ["match", ["get", "id"], [""], true, false])
     map.setFilter(  'lines-layer', ["match", ["get", "id"], [""], true, false])
