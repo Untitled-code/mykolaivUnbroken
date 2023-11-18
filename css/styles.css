@@ -33,6 +33,7 @@ body {
     text-shadow: 1px 1px 3px #464646;
     font-family: 'Times New Roman', Times, serif;
 }
+
 #title-wrapper h3  {
     color:#ffffff;
     margin-top: 5px;
@@ -49,7 +50,6 @@ body {
     background-color: #2e2e2eb9;
     color: rgba(255, 255, 255, 0.94)
 }
-
 
 .two-col-grid {
     display:grid; 
@@ -75,12 +75,9 @@ body {
     margin: 0 auto;
 }
 
-
-
 .step img {
     max-width: 100%;
 }
-
 
 /* Scrollytelling */
 #scroll {        
@@ -110,9 +107,7 @@ body {
     grid-row: 1/2;
     z-index: 10;
     margin-top: 50px;
-    
 }
-
 
 .scroll__graphic #map {
     position: relative;
@@ -121,9 +116,6 @@ body {
     grid-column:1/-1;
     grid-row: 1/2;
 }
-
-
-
 
 .mapboxgl-popup-content {
     line-height: 1.4;
@@ -147,14 +139,12 @@ body {
     content: "Зрозуміло ";
 }
 
-
 .scroll__graphic #cover-picture {
     grid-column:1/-1;
     grid-row: 1/2;
     z-index:-1;
     background-position: 50% 50%;
 }
-
 
 .scroll__graphic video {
     height: 100vh;
@@ -163,8 +153,7 @@ body {
     grid-column:1/-1;
     grid-row: 1/2;
     z-index:-1;
-
-    }
+}
 
 .scroll__graphic  #cover-picture {
     width: 100%; 
@@ -173,8 +162,6 @@ body {
     background-size: cover;
     z-index:0;
 }
-
-
 
 .scroll__graphic  #cover-video {
     z-index:20;
@@ -192,7 +179,6 @@ body {
     pointer-events: none;
 }
 
-
 .step {
     width: 100%;
     height: max-content;
@@ -203,7 +189,6 @@ body {
     pointer-events: auto;
     display: block;
 } 
-
 
 .step > div {
     font-size: 18px;
@@ -222,15 +207,12 @@ body {
     text-shadow: 1px 1px 3px #ffffff;
 }
 
-
 .step p {
-   
     margin-top: 0;
     margin-bottom: 20px;
     height: max-content;
     padding:2px;
 }
-
 
 .step .grid-wrapper {
     display: grid;
@@ -251,13 +233,11 @@ iframe {
     margin: 20px 0;
 }
 
-
 .show-popup, .show-point-popup {
     background-color: #CAA7A6;
     padding: 0 1px;
     cursor: pointer;
 }
-
 
 .credits {
     font-style: italic;

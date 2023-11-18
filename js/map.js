@@ -67,7 +67,7 @@ map.on('load', function () {
     map.addSource("arrows", {
         "type": "geojson",
         "lineMetrics": true,
-        'data': "data/chernihiv_arrow.geojson"
+        'data': "data/mykolayv_arrow.geojson"
     });
 
     map.addSource("dots", {
