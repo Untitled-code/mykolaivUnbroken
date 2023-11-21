@@ -46,33 +46,33 @@ map.on('load', function () {
     // This will log the message "Adding source to map:" along with the arguments of the map.addSource() function to the console before executing the function.
     console.log("Adding source to map:", "polygons", {
         "type": "geojson",
-        'data': "data/chernihiv_poly.geojson"
+        'data': "data/mykolaivPolygons.geojson"
     });
 
     map.addSource("polygons", {
         "type": "geojson",
-        'data': "data/chernihiv_poly.geojson"
+        'data': "data/mykolaivPolygons.geojson"
     });
 
     map.addSource("lines", {
         "type": "geojson",
-        'data': "data/chernihiv_line2.geojson"
+        'data': "data/mykolaivLines.geojson"
     });
 
     map.addSource("icons", {
         "type": "geojson",
-        'data': "data/true_arrows.geojson"
+        'data': "data/arrows.geojson"
     });
 
     map.addSource("arrows", {
         "type": "geojson",
         "lineMetrics": true,
-        'data': "data/mykolayv_arrow.geojson"
+        'data': "data/mykolayvArrows.geojson"
     });
 
     map.addSource("dots", {
         "type": "geojson",
-        'data': "data/chernihiv_dot.geojson"
+        'data': "data/mykolaivDots.geojson"
     });
           
   
