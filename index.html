@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Миколаїв</title>
 
-
     <!-- Scripts -->
     <script src="libs/popper.min.js"></script>
     <script src="libs/tippy-bundle.umd.js"></script>
@@ -16,8 +15,14 @@
     <script src='libs/scrollama.min.js'></script>
     <script src='libs/turf.min.js'></script>
 
-    <link href="libs/mapbox-gl.css" rel="stylesheet">
+    <script src='libs/bootstrap.min.js'></script>
+    <link href="libs/bootstrap.min.css" rel="stylesheet">
+
+    <script src='libs/simple-lightbox.min.js'></script>
+    <link href="libs/simple-lightbox.min.css" rel="stylesheet">
+
     <script src="libs/mapbox-gl.js"></script>
+    <link href="libs/mapbox-gl.css" rel="stylesheet">
 
     <link rel="stylesheet" href="css/styles.css" />
 </head>
@@ -46,13 +51,9 @@
             <!-- </div> -->
     <!-- </div> -->
 
-
-
-
-
     <!-- scrollytelling part -->
     <section id='scroll' class="">
-        
+
         <div class='scroll__graphic sticky'>
             <div id="map"></div>
              <div id="cover-picture" style="display:block"></div>
@@ -64,93 +65,129 @@
             </div>
         </div>
 
-
         <div class='scroll__text'>
             <div class="step" data-index="0" style="margin-top:-60vh;"
-                data-polygons='["p1"]' data-points='[""]' data-lines='[""]'
+                data-polygons='["d1"]' data-points='[""]' data-lines='[""]'
                 data-picture='["img/nezlamniy-mykolayv.jpg"]'
-                data-coords='[31.39732070281275, 51.53429993623848]' data-zoom='[13]'
+                data-coords='[32.0730514, 46.9354839]' data-zoom='[13]'
                 >
                 <div style="background-color: transparent; border:0px;">
-                
 
                     <div id="title-wrapper">
                         <h1>НЕЗЛАМНИЙ МИКОЛАЇВ</h1>
                         <h3>Як українські воїни<br>обороняли місто та область</h3>
                     </div>
-        
-                    
-
                 </div>
             </div>
 
             <div class="step" data-index="0"
-            data-polygons='["p1"]' data-points='[""]' data-lines='[""]' 
+            data-polygons='["d1"]' data-points='[""]' data-lines='[""]'
             data-picture='["img/nezlamniy-mykolayv.jpg"]'
-            data-coords='[31.39732070281275, 51.53429993623848]' data-zoom='[13]'
+            data-coords='[32.0730514, 46.9354839]' data-zoom='[2]'
             >
             <div>
 
-                <p>— Бій завжди йде за висоту. Хто на висоті, той контролює ситуацію, — каже 37-річний
-                    Олександр Шевченко, полковник ЗСУ, заступник начальника управління ракетних військ і артилерії ОК “Північ”,
-                    коли пояснює, чому такими важливими є пагорби під Черніговом у селі Новоселівка. Вони тягнуться 2 км вздовж
-                    траси.</p>
-    
+                <p>ВСТУП?</p>
+
                 <div class='small-pic'>
-                    <img style="width: 100%;" src="img/Shevchenko.JPG" />
-                    <figcaption>Олександр Шевченко</figcaption> 
+                    <a href="img/nezlamniy-mykolayv.jpg" class="big" rel="rel1">
+                        <img style="width: 100%;" src="img/nezlamniy-mykolayv.jpg" /></a>
+                    <figcaption>Олександр Шевченко</figcaption>
                 </div>
-              
-
-                
-
             </div>
             </div>
 
             <div class="step" data-index="1"
-            data-polygons='["p1"]' data-points='[""]' data-lines='[""]'
-            data-pulse='[""]'
-            data-coords='[31.39732070281275, 51.53429993623848]' data-zoom='[13]'>
+                 data-polygons='["d1", "d2"]' data-points='["d1", "d2"]' data-lines='[""]'
+                 data-pulse='["d1", "d2"]'
+            data-coords='[32.0730514, 46.9354839]' data-zoom='[13]'>
                 <div>
-                    <p>До центру Чернігова звідси — 9 км по прямій на північний схід, до Києва — 150 км. П’ять тижнів, тобто
-                        36 днів, від 24 лютого до 31 березня, на цих пагорбах і поблизу точилися криваві бої. Тут застрягли росіяни,
-                        які збиралися взяти Київ за три дні. </p>
-                    <p>Ми стоїмо на краю крутого схилу. Під ногами мокрий сніг. Як і торік, у лютому 2022-го. Чернігів
-                        звідси — як на долоні: коробки будинків, труби ТЕЦ. Чернігівщина — майже суцільна рівнина. Але
-                        місцевість поблизу села Новоселівка особлива, схожа на шматок Сумщини чи навіть Закарпаття — тут
-                        схили та пагорби.</p>
-    
-    
-                    <div class='big-pic'>
-                        <img src="img/pagorb.JPG" />
-                        <figcaption>Частина пагорба, який обороняли українські бійці</figcaption>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm">
+                                <video class="w-100" controls>
+                                    <source src="img/2022-02-24/2022-02-24.mp4" type=video/mp4>
+                                </video>
+                            </div>
+                            <div class="col-sm">
+                                <p class="h2"><b>24 лютого >>></b></p>
+                                <p class="h3">Близько 5:00 росіяни завдали перших ракетних ударів по аеродрому Кульбакине. Удари по обʼєкту продовжувалися протягом дня.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="step" data-index="2"
+                 data-polygons='[""]' data-points='["d3"]' data-lines='[""]'
+                 data-pulse='["d3"]'
+                 data-coords='[31.5611676, 46.6168969]' data-zoom='[14]'>
+                <div>
+                    <div class="row">
+                        <div class="col-sm">
+                            <p class="h2"><b>24 лютого >>></b></p>
+                            <p class="h3">Близько 7:00 удари по Очакову. Було атаковано військовий порт і радар.</p>
+                        </div>
+                    </div>
+                    <div class='big-pic w-100'>
+                        <a href="img/2022-02-24/ochakov-obstrel.jpg"> <img src="img/2022-02-24/ochakov-obstrel.jpg" loading="lazy" /></a>
                     </div>
 
-                  
+                    </div>
                 </div>
 
+
+
+
+        <div class="step" data-index="3"
+             data-polygons='["p1"]' data-points='["d4"]' data-lines='[""]'
+             data-pulse='["d4"]'
+             data-coords='[32.0738463, 46.9505797]' data-zoom='[14]'>
+            <div>
+                <div class="row">
+                    <div class="col-sm">
+                        <p class="h2"><b>25 лютого >>></b></p>
+                        <p class="h3">Близько 22:00 росіяни обстріляли склад паливно-мастильних матеріалів на Херсонському шосе, що спричинило велику пожежу.</p>
+
+                        </video>
+                    </div>
+                    <div class="col-sm">
+                        <video class="w-100" controls>
+                            <source src="img/2022-02-25/2022-02-25.mp4" type=video/mp4>
+                    </div>
                 </div>
-         
-<!-- 
-            <div class="step" data-index="1" 
-            data-polygons='["p1", "p4"]' data-points='[""]' data-lines='[""]'  
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<!--
+            <div class="step" data-index="1"
+            data-polygons='["p1", "p4"]' data-points='[""]' data-lines='[""]'
             data-pulse='[""]'
             data-picture='["img/misto_z_pagorba.JPG"]' data-coords='[31.40081, 51.51740]' data-zoom='[11]'>
                 <div>
-                   
+
             </div> -->
 
-            <div class="step" data-index="2" 
-            data-polygons='["p1", "p4"]' data-points='[""]' data-lines='["l15"]'  
-            data-pulse='[""]'
-            data-coords='[31.395080602307303, 51.535454537253344]' data-zoom='[11]'>
-                <div>
-                    <p> Обіч траси (праворуч, якщо стояти лицем на північ) — село, що теж стало полем бою, луки, заплава
-                        Десни й болотиста місцевість, у якій грузнуть танки. <br>
-                        Ліворуч — та сама висота.</p>
 
-                </div>
-            </div>
 
 
 
@@ -976,18 +1013,6 @@
     <!-- <script src="js/calendar.js"></script>
 <script src="libs/share-behavior.js"></script> -->
 
-
-
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-18136548-1']);
-        _gaq.push(['_trackPageview']);
-        (function () {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
+<script type="text/javascript">
+    var lightbox = new SimpleLightbox('a', { /* options */ });
+</script>

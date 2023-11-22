@@ -11,7 +11,7 @@ body {
 /* 
 #header {
     height: 100vh;
-    background-image: url('../img/Shevchenko.JPG');
+    background-image: url('..img/nezlamniy-mykolayv.jpg');
     background-size: cover;
 } */
 
@@ -158,7 +158,7 @@ body {
 .scroll__graphic  #cover-picture {
     width: 100%; 
     height: 100vh; 
-    background-image: url('../img/misto_z_pagorba.JPG');
+    background-image: url('../img/nezlamniy-mykolayv.jpg');
     background-size: cover;
     z-index:0;
 }
@@ -188,7 +188,7 @@ body {
     line-height: 1.6;
     pointer-events: auto;
     display: block;
-} 
+}
 
 .step > div {
     font-size: 18px;
