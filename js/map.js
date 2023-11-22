@@ -1,5 +1,5 @@
 var main_zoom = 13
-var redColor= "rgb(250,70,0)";
+var redColor= "rgb(170,50,60)";
 var map_center = [31.39732070281275, 51.53429993623848];
 
 const bounds = [
