@@ -7,11 +7,13 @@ const bounds = [
     [33.4476,52.6351] // Northeast coordinates
     ];
 
-mapboxgl.accessToken = 'pk.eyJ1IjoiZXZnZXNoYWRyb3pkb3ZhIiwiYSI6ImNqOWRhbnk3MDI4MGIycW9ya2hibG9pNm8ifQ.8VxS8cKEypk08xfgUgbsHw';
+mapboxgl.accessToken = 'pk.eyJ1Ijoib2tvcnNhY2giLCJhIjoiY2xjbmc1NzVoMGV3azNubDQ0aWVranFxNSJ9.V6i-60-y9_bKBo-qMwI2nQ';
 const map = new mapboxgl.Map({
     container: 'map',
-    style: 'data/positron2.json',
-//style: 'mapbox://styles/mapbox/satellite-streets-v9',
+    // style: 'data/positron2.json',
+    // style: 'mapbox://styles/mapbox/streets-v11',
+    style: 'data/dark-matter-gl-style/style.json',
+    // style: 'mapbox://styles/mapbox/satellite-streets-v9',
     center: map_center,
     zoom: main_zoom,
     minZoom: 7,
@@ -43,12 +45,6 @@ map.on("click", function(e){
 
 map.on('load', function () {
 
-    // This will log the message "Adding source to map:" along with the arguments of the map.addSource() function to the console before executing the function.
-    console.log("Adding source to map:", "polygons", {
-        "type": "geojson",
-        'data': "data/mykolaivPolygons.geojson"
-    });
-
     map.addSource("polygons", {
         "type": "geojson",
         'data': "data/mykolaivPolygons.geojson"
@@ -76,25 +72,7 @@ map.on('load', function () {
     });
           
   
-    //polygon stroke
-    console.log("Adding polygon layer to map", map.addLayer({
-        "id": "polygons-layer",
-        'type': 'fill',
-        "source": "polygons",
-        'paint': {
-            'fill-color': [
-                'match',
-                ['get', 'side'],
-                'ru', redColor,
-                'ua','#00A68E',
-                'grey'
-            ],
-            'fill-opacity': 0.5
-            // 'line-width': 2
-        }
-    }));
-
-    map.addLayer({
+     map.addLayer({
         "id": "polygons-layer",
         'type': 'fill',
         "source": "polygons",
