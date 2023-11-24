@@ -10,9 +10,9 @@ const bounds = [
 mapboxgl.accessToken = 'pk.eyJ1Ijoib2tvcnNhY2giLCJhIjoiY2xjbmc1NzVoMGV3azNubDQ0aWVranFxNSJ9.V6i-60-y9_bKBo-qMwI2nQ';
 const map = new mapboxgl.Map({
     container: 'map',
-    style: 'data/positron2.json',
+    // style: 'data/positron2.json',
     // style: 'mapbox://styles/mapbox/streets-v11',
-    //style: 'data/dark-matter-gl/style.json',
+    style: 'data/dark-matter-gl/style.json',
     // style: 'mapbox://styles/mapbox/satellite-streets-v9',
     center: map_center,
     zoom: main_zoom,
