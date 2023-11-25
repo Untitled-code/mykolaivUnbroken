@@ -12,7 +12,7 @@ const map = new mapboxgl.Map({
     container: 'map',
     style: 'data/positron2.json',
     // style: 'mapbox://styles/mapbox/streets-v11',
-    //style: 'data/dark-matter-gl/style.json',
+    // style: 'data/dark-matter-gl/style.json',
     // style: 'mapbox://styles/mapbox/satellite-streets-v9',
     center: map_center,
     zoom: main_zoom,
