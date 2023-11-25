@@ -48,28 +48,79 @@
 
 { "type": "Feature", "properties": { "fid": 22, "Name": "ПРИБУЗЬКЕ", "No": 5, "id": "d22", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.0881431, 46.7743108 ] } },
 
-{ "type": "Feature", "properties": { "fid": 23, "Name": "підбили Тигр та взяли у полон чотирьох окупантів", "No": 5, "id": "d11", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.985993512275286, 46.81405692402034 ] } },
+{ "type": "Feature", "properties": { "fid": 23, "Name": "підбили Тигр та взяли у полон чотирьох окупантів", "No": 5, "id": "d23", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.985993512275286, 46.81405692402034 ] } },
 
-{ "type": "Feature", "properties": { "fid": 24, "Name": "Ворог тікав у бік Шевченкового", "No": 5, "id": "d11", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.201640918770075, 46.846260851264475 ] } },
+{ "type": "Feature", "properties": { "fid": 24, "Name": "Ворог тікав у бік Шевченкового", "No": 5, "id": "d24", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.201640918770075, 46.846260851264475 ] } },
 
-{ "type": "Feature", "properties": { "fid": 11, "Name": "Єланецький напрямок", "No": 5, "id": "d11", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.856574133387777, 47.70087674661465 ] } },
+{ "type": "Feature", "properties": { "fid": 26, "Name": "Пивзавод у районі Кульбакиного", "No": 5, "id": "d26", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.856574133387777, 47.70087674661465 ] } },
 
-{ "type": "Feature", "properties": { "fid": 11, "Name": "Єланецький напрямок", "No": 5, "id": "d11", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.856574133387777, 47.70087674661465 ] } },
+{ "type": "Feature", "properties": { "fid": 27, "Name": "Удар ракетою по казармі 79-ї бригади", "No": 5, "id": "d27", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.994529, 47.003739 ] } },
 
-{ "type": "Feature", "properties": { "fid": 11, "Name": "Єланецький напрямок", "No": 5, "id": "d11", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.856574133387777, 47.70087674661465 ] } },
+{ "type": "Feature", "properties": { "fid": 28, "Name": "Миколаївський міжнародний аеропорт", "No": 5, "id": "d28", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.9187048420095, 47.05450950522563 ] } },
 
-{ "type": "Feature", "properties": { "fid": 11, "Name": "Єланецький напрямок", "No": 5, "id": "d11", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.856574133387777, 47.70087674661465 ] } },
+{ "type": "Feature", "properties": { "fid": 25, "Name": "БАЛОВНЕ", "No": 5, "id": "d25", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.9187048420095, 47.05450950522563 ] } },
 
-{ "type": "Feature", "properties": { "fid": 11, "Name": "Єланецький напрямок", "No": 5, "id": "d11", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.856574133387777, 47.70087674661465 ] } },
+{ "type": "Feature", "properties": { "fid": 30, "Name": "Єланецький напрямок", "No": 5, "id": "d30", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.856574133387777, 47.70087674661465 ] } },
 
-{ "type": "Feature", "properties": { "fid": 11, "Name": "Єланецький напрямок", "No": 5, "id": "d11", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.856574133387777, 47.70087674661465 ] } },
+{ "type": "Feature", "properties": { "fid": 31, "Name": "ЗСУ вдарили по колоні росіян", "No": 5, "id": "d31", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.24208226630578, 47.44467834708701 ] } },
 
-{ "type": "Feature", "properties": { "fid": 11, "Name": "Єланецький напрямок", "No": 5, "id": "d11", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.856574133387777, 47.70087674661465 ] } },
+{ "type": "Feature", "properties": { "fid": 32, "Name": "ГУРʼЇВКА", "No": 5, "id": "d32", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.866783219723107, 47.131415281575414 ] } },
 
-{ "type": "Feature", "properties": { "fid": 11, "Name": "Єланецький напрямок", "No": 5, "id": "d11", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.856574133387777, 47.70087674661465 ] } },
+{ "type": "Feature", "properties": { "fid": 33, "Name": "Українські військові знищили понтонну переправу", "No": 5, "id": "d33", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.4277340748878, 47.38334452610969 ] } },
 
-{ "type": "Feature", "properties": { "fid": 11, "Name": "Єланецький напрямок", "No": 5, "id": "d11", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.856574133387777, 47.70087674661465 ] } },
+{ "type": "Feature", "properties": { "fid": 34, "Name": "ЗСУ відновили контроль над трасою Нова Одеса - Миколаїв", "No": 5, "id": "d34", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.885026629709635, 47.17278141563277 ] } },
 
-{ "type": "Feature", "properties": { "fid": 41, "Name": "Позиції українських бійців біля заправки “Укрнафта”", "description": null, "No": null, "id": "d41", "side": "ua" }, "geometry": { "type": "Point", "coordinates": [ 31.3878715459856, 51.535847881303141 ] } }
+{ "type": "Feature", "properties": { "fid": 35, "Name": "Захоплено позиції російської артилерії разом з технікою", "No": 5, "id": "d35", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.976178811422457, 47.07291461318895 ] } },
+
+{ "type": "Feature", "properties": { "fid": 29, "Name": "КИСЕЛІВКА", "No": 5, "id": "d29", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.469624, 47.002863 ] } },
+
+{ "type": "Feature", "properties": { "fid": 291, "Name": "ПЕРВОМАЙСЬКЕ", "No": 5, "id": "d291", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.440033, 47.044286 ] } },
+
+{ "type": "Feature", "properties": { "fid": 292, "Name": "МИХАЙЛО-ЛАРИНЕ", "No": 5, "id": "d292", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.214033, 47.112103 ] } },
+
+{ "type": "Feature", "properties": { "fid": 293, "Name": "ПІСКИ", "No": 5, "id": "d293", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.449975, 47.312435 ] } },
+
+{ "type": "Feature", "properties": { "fid": 294, "Name": "СНІГУРІВКА", "No": 5, "id": "d294", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.802329, 47.069996 ] } },
+
+{ "type": "Feature", "properties": { "fid": 36, "Name": "Знищено один із підрозділів 247-го гвардійського десантно-штурмового полку РФ", "No": 5, "id": "d36", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.091008, 46.937904 ] } },
+
+{ "type": "Feature", "properties": { "fid": 37, "Name": "Українські сили відкинули росіян до кордонів Херсонської області", "No": 5, "id": "d37", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.091008, 46.937904 ] } },
+
+{ "type": "Feature", "properties": { "fid": 38, "Name": "Удар по військових казармах у Миколаєві", "No": 5, "id": "d38", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.091008, 46.937904 ] } },
+
+{ "type": "Feature", "properties": { "fid": 39, "Name": "Бій при спробі росіян висунутися зі Снігурівки в бік Березнегуватого", "No": 5, "id": "d39", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.80845793511032, 47.06186573671403 ] } },
+
+{ "type": "Feature", "properties": { "fid": 40, "Name": "ЗАСІЛЛЯ", "No": 5, "id": "d40", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.427864, 47.023303] } },
+
+{ "type": "Feature", "properties": { "fid": 401, "Name": "БІЛОЗЕРКА", "No": 5, "id": "d401", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.446813, 47.090847 ] } },
+
+{ "type": "Feature", "properties": { "fid": 41, "Name": "Українська авіація вдарила по стоянці БТГ 7-ї військової бази ЗС РФ", "No": 5, "id": "d41", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.20774292397249, 47.34096367129388 ] } },
+
+{ "type": "Feature", "properties": { "fid": 42, "Name": "Спроба ЗСУ відбити Снігурівку", "No": 5, "id": "d42", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.81257780719835, 47.061748799532914 ] } },
+
+{ "type": "Feature", "properties": { "fid": 43, "Name": "Воїни 79-ї бригади розгромили ворожу колону", "No": 5, "id": "d43", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.30042612975565, 47.08127376947677 ] } },
+
+{ "type": "Feature", "properties": { "fid": 44, "Name": "Росіяни намагались покращити становище, але ЗСУ відтіснили їх з позицій", "No": 5, "id": "d44", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.12739147737591, 46.91455582531572 ] } },
+
+{ "type": "Feature", "properties": { "fid": 45, "Name": "Російські війська намагались покращити своє тактичне положення", "No": 5, "id": "d45", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.034007696726526, 46.892037201239646 ] } },
+
+{ "type": "Feature", "properties": { "fid": 46, "Name": "Українська авіація завдала удару по скупченню живої сили окупантів", "No": 5, "id": "d46", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.807599633321324, 47.062801226418884 ] } },
+
+{ "type": "Feature", "properties": { "fid": 47, "Name": "Жорстокі бої в районі населених пунктів Любомирівка, Тернові Поди та Шмідтове", "No": 5, "id": "47", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.868075395751, 47.18692192362283 ] } },
+
+{ "type": "Feature", "properties": { "fid": 48, "Name": "Українські військові знищили 2 склади ворожих боєприпасів", "No": 5, "id": "d48", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.77876052459137, 47.09646789744802 ] } },
+
+{ "type": "Feature", "properties": { "fid": 49, "Name": "ЗСУ провели розвідку боєм на трьох ділянках", "No": 5, "id": "d49", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.758161161212826, 47.086650649206895 ] } },
+
+{ "type": "Feature", "properties": { "fid": 51, "Name": "ЗСУ звільнили Снігурівку", "No": 5, "id": "d51", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.79575499377255, 47.051457314781345 ] } },
+
+{ "type": "Feature", "properties": { "fid": 53, "Name": "Збройні сили України звільнили Киселівку", "No": 5, "id": "d53", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.4075, 46.755278 ] } },
+
+{ "type": "Feature", "properties": { "fid": 54, "Name": "ЗСУ звільнили Херсон від росіян", "No": 5, "id": "d54", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.6168670, 46.6354170 ] } },
+
+{ "type": "Feature", "properties": { "fid": 55, "Name": "Операція з висадки десанту ЗСУ на Кінбурнську косу", "No": 5, "id": "d55", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.565532993729025, 46.536839829642624 ] } },
+
+{ "type": "Feature", "properties": { "fid": 56, "Name": "На Кінбурській косі зберігається присутність ворожих військ", "No": 5, "id": "d56", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.5531733757019, 46.541090680225956 ] } }
+
 ]
 }
