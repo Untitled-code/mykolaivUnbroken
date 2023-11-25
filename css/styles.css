@@ -171,8 +171,8 @@ body {
 
 .scroll__text {     
     grid-column: 1/-1;          
-    width: 80%; 
-    max-width: 800px;   
+    width: 100%;
+    max-width: 750px;
     margin: auto;
     position:relative;
     z-index:10;
@@ -192,9 +192,10 @@ body {
 
 .step > div {
     font-size: 18px;
-    background-color:#fdfdfde2;
-    border: 0.5px solid grey;
+    background-color:rgba(0, 0, 0, 0.5);
+/*    border: 0.5px solid grey; */
     padding: 5px 10px;
+    color:white;
 }
 
 .step h2 {
@@ -283,7 +284,7 @@ a:hover {
 
      .scroll__text {  
         z-index: 10;
-        width: 96%; 
+        width: 96%;
     }
 
     .step {
