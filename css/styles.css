@@ -20,7 +20,7 @@ body {
 #title-wrapper {
     color:#ffffff;
     margin-bottom: 0px;
-    display:block;
+    display:none;
 }
 
 #title-wrapper h1 {
