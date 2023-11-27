@@ -31,7 +31,8 @@ body {
     margin-top: 0;
     text-transform: uppercase;
     text-shadow: 1px 1px 3px #464646;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    display:block;
 }
 
 #title-wrapper h3  {
@@ -42,7 +43,8 @@ body {
     font-family: sans-serif;
     line-height: 1.2;
     text-shadow: 1px 1px 3px #303030;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    display:block;
 }
 
 .date {
