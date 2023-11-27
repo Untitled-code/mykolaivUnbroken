@@ -383,8 +383,10 @@ function handleStepEnter(r) {
          $("#cover-video").css("display", "none")
     }
 
-    if(r.index === 0){
-        $(".scroll__text").css("display", "block")
+    if(r.index <= 1 && window.innerWidth <= 800){
+        $(".mobile-title").css("display", "block")
+    } else {
+        $(".mobile-title").css("display", "none")
     }
 
 
