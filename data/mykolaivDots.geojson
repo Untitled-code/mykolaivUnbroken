@@ -26,7 +26,7 @@
 
 { "type": "Feature", "properties": { "fid": 10, "Name": "БАШТАНКА", "No": 5, "id": "d10", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.43771766973219, 47.40818583583354 ] } },
 
-{ "type": "Feature", "properties": { "fid": 11, "Name": "ЄЛАНЕЦЬ", "No": 5, "id": "d11", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.856574133387777, 47.70087674661465 ] } },
+{ "type": "Feature", "properties": { "fid": 11, "Name": "ЗСУ завдали ударів по окупантах на Єланецькому напрямку", "No": 5, "id": "d11", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.902106, 47.628976 ] } },
 
 { "type": "Feature", "properties": { "fid": 12, "Name": "КАЛИНІВКА", "No": 5, "id": "d12", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.17744576305082, 47.064029113873445 ] } },
 
@@ -66,7 +66,7 @@
 
 { "type": "Feature", "properties": { "fid": 32, "Name": "ГУРʼЇВКА", "No": 5, "id": "d32", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.866783219723107, 47.131415281575414 ] } },
 
-{ "type": "Feature", "properties": { "fid": 33, "Name": "Українські військові знищили понтонну переправу", "No": 5, "id": "d33", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.4277340748878, 47.38334452610969 ] } },
+{ "type": "Feature", "properties": { "fid": 33, "Name": "Українські військові знищили понтонну переправу", "No": 5, "id": "d33", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.8399923, 47.1447842 ] } },
 
 { "type": "Feature", "properties": { "fid": 34, "Name": "ЗСУ відновили контроль над трасою Нова Одеса - Миколаїв", "No": 5, "id": "d34", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.885026629709635, 47.17278141563277 ] } },
 
@@ -82,7 +82,7 @@
 
 { "type": "Feature", "properties": { "fid": 294, "Name": "СНІГУРІВКА", "No": 5, "id": "d294", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.802329, 47.069996 ] } },
 
-{ "type": "Feature", "properties": { "fid": 36, "Name": "Знищено один із підрозділів 247-го гвардійського десантно-штурмового полку РФ", "No": 5, "id": "d36", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.091008, 46.937904 ] } },
+{ "type": "Feature", "properties": { "fid": 36, "Name": "Знищено один із підрозділів 247-го гвардійського десантно-штурмового полку РФ", "No": 5, "id": "d36", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.9953891, 47.0127022 ] } },
 
 { "type": "Feature", "properties": { "fid": 37, "Name": "Українські сили відкинули росіян до кордонів Херсонської області", "No": 5, "id": "d37", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.091008, 46.937904 ] } },
 
@@ -106,9 +106,13 @@
 
 { "type": "Feature", "properties": { "fid": 46, "Name": "Українська авіація завдала удару по скупченню живої сили окупантів", "No": 5, "id": "d46", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.807599633321324, 47.062801226418884 ] } },
 
-{ "type": "Feature", "properties": { "fid": 47, "Name": "Жорстокі бої в районі населених пунктів Любомирівка, Тернові Поди та Шмідтове", "No": 5, "id": "47", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.868075395751, 47.18692192362283 ] } },
+{ "type": "Feature", "properties": { "fid": 47, "Name": "ТЕРНОВІ ПОДИ", "No": 5, "id": "d47", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.387857, 46.855414 ] } },
 
-{ "type": "Feature", "properties": { "fid": 48, "Name": "Українські військові знищили 2 склади ворожих боєприпасів", "No": 5, "id": "d48", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.77876052459137, 47.09646789744802 ] } },
+{ "type": "Feature", "properties": { "fid": 471, "Name": "ШМІДТОВЕ", "No": 5, "id": "d471", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.463388, 46.872315 ] } },
+
+{ "type": "Feature", "properties": { "fid": 472, "Name": "ЛЮБОМИРІВКА", "No": 5, "id": "d472", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.369661, 46.882641 ] } },
+
+{ "type": "Feature", "properties": { "fid": 48, "Name": "Українські військові знищили склад ворожих боєприпасів", "No": 5, "id": "d48", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.77876052459137, 47.09646789744802 ] } },
 
 { "type": "Feature", "properties": { "fid": 49, "Name": "ЗСУ провели розвідку боєм на трьох ділянках", "No": 5, "id": "d49", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.758161161212826, 47.086650649206895 ] } },
 
