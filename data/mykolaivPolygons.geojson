@@ -512,7 +512,7 @@
     },
     "properties": {
       "fid": 2,
-      "Name": "26 лютого 2022 року",
+      "Name": null,
       "description": "Дата: 2022-02-26<br>",
       "No": 7,
       "id": "p2",
@@ -1082,7 +1082,7 @@
     },
     "properties": {
       "fid": 3,
-      "Name": "1-2 березня",
+      "Name": null,
       "description": "Дата: 1-2.03.2022<br>",
       "No": 23,
       "id": "p3",
