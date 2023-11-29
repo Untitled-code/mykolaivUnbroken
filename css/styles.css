@@ -247,13 +247,13 @@ iframe {
 a {
     color: inherit;
     text-decoration: none;
-    border-bottom: 2px solid #F26344;;
+    border-bottom: 2px solid #7e1824;;
     padding-bottom: 1px;
 }
 
 a:hover {
-    color: #F26344;
-    border-bottom: 2px solid #F26344;
+    color: #7e1824;
+    border-bottom: none #7e1824;
 }
 
 @media(max-width: 800px){

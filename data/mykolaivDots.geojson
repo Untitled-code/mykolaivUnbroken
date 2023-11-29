@@ -52,7 +52,7 @@
 
 { "type": "Feature", "properties": { "fid": 24, "Name": "Ворог тікав у бік Шевченкового", "No": 5, "id": "d24", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.201640918770075, 46.846260851264475 ] } },
 
-{ "type": "Feature", "properties": { "fid": 26, "Name": "Пивзавод у районі Кульбакиного", "No": 5, "id": "d26", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.856574133387777, 47.70087674661465 ] } },
+{ "type": "Feature", "properties": { "fid": 26, "Name": "Росіяни атакували танками зі сторони пивзаводу", "No": 5, "id": "d26", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.058773397153175, 46.869491593436685 ] } },
 
 { "type": "Feature", "properties": { "fid": 27, "Name": "Удар ракетою по казармі 79-ї бригади", "No": 5, "id": "d27", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.994529, 47.003739 ] } },
 
@@ -114,7 +114,11 @@
 
 { "type": "Feature", "properties": { "fid": 48, "Name": "Українські військові знищили склад ворожих боєприпасів", "No": 5, "id": "d48", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.77876052459137, 47.09646789744802 ] } },
 
-{ "type": "Feature", "properties": { "fid": 49, "Name": "ЗСУ провели розвідку боєм на трьох ділянках", "No": 5, "id": "d49", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.758161161212826, 47.086650649206895 ] } },
+{ "type": "Feature", "properties": { "fid": 49, "Name": "Посад-Покровській напрямок", "No": 5, "id": "d49", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.291309, 46.783861 ] } },
+
+{ "type": "Feature", "properties": { "fid": 491, "Name": "Снігурівський напрямок", "No": 5, "id": "d491", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.801496, 47.079194 ] } },
+
+{ "type": "Feature", "properties": { "fid": 492, "Name": "Білозерський напрямок", "No": 5, "id": "d492", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.142457, 46.651068 ] } },
 
 { "type": "Feature", "properties": { "fid": 51, "Name": "ЗСУ звільнили Снігурівку", "No": 5, "id": "d51", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.79575499377255, 47.051457314781345 ] } },
 
