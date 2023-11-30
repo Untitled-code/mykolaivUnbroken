@@ -277,7 +277,6 @@ map.on('load', function () {
             'text-color': 'white',         
         }
     });
-    console.log("Filtering polygon layer to map", map.setFilter(  'polygons-layer', ["match", ["get", "id"], ["p1"], true, false]))
     map.setFilter(  'polygons-layer', ["match", ["get", "id"], ["p1"], true, false])
     map.setFilter(  'points-layer', ["match", ["get", "id"], [""], true, false])
     map.setFilter(  'lines-layer', ["match", ["get", "id"], [""], true, false])
