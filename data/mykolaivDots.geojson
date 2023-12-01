@@ -42,7 +42,7 @@
 
 { "type": "Feature", "properties": { "fid": 19, "Name": "ПІСКИ", "No": 5, "id": "d19", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.25827462501065, 47.35738603290133 ] } },
 
-{ "type": "Feature", "properties": { "fid": 20, "Name": "Росіяни увійшли до Микоалєва", "No": 5, "id": "d20", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.091008, 46.937904 ] } },
+{ "type": "Feature", "properties": { "fid": 20, "Name": "росіяни увійшли до Миколаєва зі сторони Балабанівки та Галицинового", "No": 5, "id": "d20", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.00163878532696, 46.834736244429735 ] } },
 
 { "type": "Feature", "properties": { "fid": 21, "Name": "Бій у районі аеродрому Кульбакине", "No": 5, "id": "d21", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.08886463173665, 46.938929991103706 ] } },
 
@@ -82,7 +82,7 @@
 
 { "type": "Feature", "properties": { "fid": 294, "Name": "СНІГУРІВКА", "No": 5, "id": "d294", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.802329, 47.069996 ] } },
 
-{ "type": "Feature", "properties": { "fid": 36, "Name": "Знищено один із підрозділів 247-го гвардійського десантно-штурмового полку РФ", "No": 5, "id": "d36", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.9953891, 47.0127022 ] } },
+{ "type": "Feature", "properties": { "fid": 36, "Name": "Знищено один із підрозділів 247-го гвардійського десантно-штурмового полку РФ", "No": 5, "id": "d36", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.078968, 46.912783 ] } },
 
 { "type": "Feature", "properties": { "fid": 37, "Name": "Українські сили відкинули росіян до кордонів Херсонської області", "No": 5, "id": "d37", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.091008, 46.937904 ] } },
 

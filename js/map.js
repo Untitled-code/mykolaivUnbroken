@@ -68,7 +68,7 @@ map.on('load', function () {
 
     map.addSource("dots", {
         "type": "geojson",
-        'data': "data/mykolaivDots.geojson"
+        'data': "data/mykolaivDots.geojson?2"
     });
           
   
