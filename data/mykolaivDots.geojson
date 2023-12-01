@@ -32,7 +32,7 @@
 
 { "type": "Feature", "properties": { "fid": 14, "Name": "район Баловного", "No": 5, "id": "d14", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.895037639172028, 47.04771246885397 ] } },
 
-{ "type": "Feature", "properties": { "fid": 15, "Name": "Громадянський аеропорт Миколаєва", "No": 5, "id": "d15", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.09288868579677, 46.944943279331206 ] } },
+{ "type": "Feature", "properties": { "fid": 15, "Name": "Військовий аеродром Кульбакине", "No": 5, "id": "d15", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.09288868579677, 46.944943279331206 ] } },
 
 { "type": "Feature", "properties": { "fid": 16, "Name": "ВОЗНЕСЕНСЬК", "No": 5, "id": "d16", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.359139331080467, 47.54852073106855 ] } },
 
@@ -42,7 +42,7 @@
 
 { "type": "Feature", "properties": { "fid": 19, "Name": "ПІСКИ", "No": 5, "id": "d19", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.25827462501065, 47.35738603290133 ] } },
 
-{ "type": "Feature", "properties": { "fid": 20, "Name": "Росіяни увійшли до Микоалєва", "No": 5, "id": "d20", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.00163878532696, 46.834736244429735 ] } },
+{ "type": "Feature", "properties": { "fid": 20, "Name": "Росіяни увійшли до Микоалєва", "No": 5, "id": "d20", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.091008, 46.937904 ] } },
 
 { "type": "Feature", "properties": { "fid": 21, "Name": "Бій у районі аеродрому Кульбакине", "No": 5, "id": "d21", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.08886463173665, 46.938929991103706 ] } },
 
