@@ -23,16 +23,17 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "https://api.maptiler.com/tiles/v3/tiles.json?key=x6rAwsstZPh1FO6HjN5r"
+      "url": "https://api.maptiler.com/tiles/v3/tiles.json?key=T4HQS4jUsCXrWHE6HKdx"
     }
   },
   "sprite": "https://openmaptiles.github.io/positron-gl-style/sprite",
-  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=x6rAwsstZPh1FO6HjN5r",
+  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=T4HQS4jUsCXrWHE6HKdx",
   "layers": [
     {
       "id": "background",
       "type": "background",
-      "paint": {"background-color": "rgb(242,243,240)"}
+      "layout": {"visibility": "visible"},
+      "paint": {"background-color": "rgba(94, 94, 94, 1)"}
     },
     {
       "id": "park",
@@ -41,7 +42,7 @@
       "source-layer": "park",
       "filter": ["==", "$type", "Polygon"],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgb(230, 233, 229)"}
+      "paint": {"fill-color": "rgba(80, 90, 80, 1)"}
     },
     {
       "id": "water",
@@ -54,7 +55,7 @@
         ["!=", "brunnel", "tunnel"]
       ],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-antialias": true, "fill-color": "rgb(194, 200, 202)"}
+      "paint": {"fill-antialias": true, "fill-color": "rgba(0, 50, 60, 1)"}
     },
     {
       "id": "landcover_ice_shelf",
@@ -100,7 +101,7 @@
       ],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgb(234, 234, 230)",
+        "fill-color": "rgba(140, 125, 125, 1)",
         "fill-opacity": {"base": 0.6, "stops": [[8, 0.8], [9, 0.6]]}
       }
     },
@@ -113,7 +114,7 @@
       "filter": ["all", ["==", "$type", "Polygon"], ["==", "class", "wood"]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgb(220,224,220)",
+        "fill-color": "rgba(66, 70, 66, 1)",
         "fill-opacity": {"base": 1, "stops": [[8, 0], [12, 1]]}
       }
     },
@@ -124,7 +125,7 @@
       "source-layer": "waterway",
       "filter": ["==", "$type", "LineString"],
       "layout": {"visibility": "visible"},
-      "paint": {"line-color": "hsl(195, 17%, 78%)"}
+      "paint": {"line-color": "rgba(0, 50, 60, 1)"}
     },
     {
       "id": "water_name",
@@ -153,6 +154,7 @@
       "source": "openmaptiles",
       "source-layer": "building",
       "minzoom": 12,
+      "layout": {"visibility": "none"},
       "paint": {
         "fill-antialias": true,
         "fill-color": "rgb(234, 234, 229)",
@@ -218,7 +220,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "hsl(0, 0%, 88%)",
+        "line-color": "rgba(50, 50, 50, 1)",
         "line-opacity": 1,
         "line-width": {"base": 1.55, "stops": [[13, 1.8], [20, 20]]}
       }
@@ -237,7 +239,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "hsl(0, 0%, 88%)",
+        "line-color": "rgba(50, 50, 50, 1)",
         "line-opacity": 1,
         "line-width": {"base": 1.5, "stops": [[11, 6], [17, 55]]}
       }
@@ -278,7 +280,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "rgba(255, 255, 255, 1)",
+        "line-color": "rgba(50, 50, 50, 1)",
         "line-opacity": 1,
         "line-width": {"base": 1.5, "stops": [[11, 4], [17, 50]]}
       }
@@ -342,7 +344,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "hsl(0, 0%, 88%)",
+        "line-color": "rgba(70, 70, 70, 1)",
         "line-opacity": 0.9,
         "line-width": {"base": 1.55, "stops": [[13, 1.8], [20, 20]]}
       }
@@ -365,7 +367,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "rgb(213, 213, 213)",
+        "line-color": "rgba(70, 70, 70, 1)",
         "line-dasharray": [12, 0],
         "line-width": {"base": 1.3, "stops": [[10, 3], [20, 23]]}
       }
@@ -388,7 +390,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "#fff",
+        "line-color": "rgba(70, 70, 70, 1)",
         "line-width": {"base": 1.3, "stops": [[10, 2], [20, 20]]}
       }
     },
@@ -409,7 +411,7 @@
         "line-join": "round",
         "visibility": "visible"
       },
-      "paint": {"line-color": "hsla(0, 0%, 85%, 0.69)", "line-width": 2}
+      "paint": {"line-color": "rgba(50, 50, 50, 1)", "line-width": 2}
     },
     {
       "id": "highway_motorway_casing",
@@ -659,20 +661,20 @@
       "layout": {
         "symbol-placement": "line",
         "symbol-spacing": 350,
-        "text-field": "{name:latin} {name:nonlatin}",
+        "text-field": "{name:nonlatin}",
         "text-font": ["Metropolis Regular", "Noto Sans Regular"],
         "text-max-angle": 30,
         "text-pitch-alignment": "viewport",
         "text-rotation-alignment": "map",
         "text-size": 10,
-        "text-transform": "uppercase",
+        "text-transform": "none",
         "visibility": "visible"
       },
       "paint": {
-        "text-color": "#bbb",
+        "text-color": "rgba(200, 200, 200, 1)",
         "text-halo-blur": 1,
         "text-halo-color": "#fff",
-        "text-halo-width": 2,
+        "text-halo-width": 0,
         "text-translate": [0, 0]
       }
     },
@@ -738,7 +740,7 @@
         "line-blur": {"base": 1, "stops": [[0, 0.4], [22, 4]]},
         "line-color": "rgb(230, 204, 207)",
         "line-opacity": 1,
-        "line-width": {"base": 1.1, "stops": [[3, 3], [22, 20]]}
+        "line-width": {"base": 1.1, "stops": [[3, 1], [22, 20]]}
       }
     },
     {
@@ -752,7 +754,7 @@
       "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {
         "line-blur": {"base": 1, "stops": [[0, 0.4], [22, 4]]},
-        "line-color": "rgba(214, 140, 161, 1)",
+        "line-color": "rgb(230, 204, 207)",
         "line-opacity": 1,
         "line-width": {"base": 1.1, "stops": [[3, 1], [22, 20]]}
       }
@@ -778,8 +780,8 @@
       ],
       "layout": {
         "text-anchor": "center",
-        "text-field": "{name:latin}\n{name:nonlatin}",
-        "text-font": ["Metropolis Regular", "Noto Sans Regular"],
+        "text-field": "{name:nonlatin}",
+        "text-font": ["Metropolis Regular", "Noto Sans Bold"],
         "text-justify": "center",
         "text-offset": [0.5, 0],
         "text-size": 10,
@@ -787,9 +789,9 @@
         "visibility": "visible"
       },
       "paint": {
-        "text-color": "rgb(117, 129, 145)",
+        "text-color": "rgba(50, 50, 50, 1)",
         "text-halo-blur": 1,
-        "text-halo-color": "rgb(242,243,240)",
+        "text-halo-color": "rgba(200, 200, 200, 1)",
         "text-halo-width": 1
       }
     },
@@ -812,9 +814,9 @@
         "visibility": "visible"
       },
       "paint": {
-        "text-color": "rgb(117, 129, 145)",
+        "text-color": "rgba(50, 50, 50, 1)",
         "text-halo-blur": 1,
-        "text-halo-color": "rgb(242,243,240)",
+        "text-halo-color": "rgba(200, 200, 200, 1)",
         "text-halo-width": 1
       }
     },
@@ -830,18 +832,18 @@
         "icon-size": 0.4,
         "text-anchor": "left",
         "text-field": "{name:nonlatin}",
-        "text-font": ["Metropolis Regular", "Noto Sans Regular"],
+        "text-font": ["Metropolis Regular", "Noto Sans Bold"],
         "text-justify": "left",
         "text-offset": [0.5, 0.2],
         "text-size": 10,
-        "text-transform": "none",
+        "text-transform": "uppercase",
         "visibility": "visible"
       },
       "paint": {
         "icon-opacity": 0.7,
-        "text-color": "rgb(117, 129, 145)",
+        "text-color": "rgba(50, 50, 50, 1)",
         "text-halo-blur": 1,
-        "text-halo-color": "rgb(242,243,240)",
+        "text-halo-color": "rgba(200, 200, 200, 1)",
         "text-halo-width": 1
       }
     },
@@ -858,18 +860,18 @@
         "icon-size": 0.4,
         "text-anchor": {"base": 1, "stops": [[0, "left"], [8, "center"]]},
         "text-field": "{name:nonlatin}",
-        "text-font": ["Metropolis Regular", "Noto Sans Regular"],
+        "text-font": ["Metropolis Regular", "Noto Sans Bold"],
         "text-justify": "left",
         "text-offset": [0.5, 0.2],
         "text-size": 10,
-        "text-transform": "none",
+        "text-transform": "uppercase",
         "visibility": "visible"
       },
       "paint": {
         "icon-opacity": 0.7,
-        "text-color": "rgb(117, 129, 145)",
+        "text-color": "rgba(50, 50, 50, 1)",
         "text-halo-blur": 1,
-        "text-halo-color": "rgb(242,243,240)",
+        "text-halo-color": "rgba(200, 200, 200, 1)",
         "text-halo-width": 1
       }
     },
@@ -893,15 +895,15 @@
         "text-font": ["Metropolis Regular", "Noto Sans Bold"],
         "text-justify": "left",
         "text-offset": [0.5, 0.2],
-        "text-size": 10,
+        "text-size": 14,
         "text-transform": "uppercase",
         "visibility": "visible"
       },
       "paint": {
         "icon-opacity": 0.7,
-        "text-color": "rgb(117, 129, 145)",
+        "text-color": "rgba(50, 50, 50, 1)",
         "text-halo-blur": 1,
-        "text-halo-color": "rgb(242,243,240)",
+        "text-halo-color": "rgba(200, 200, 200, 1)",
         "text-halo-width": 1
       }
     },
@@ -983,7 +985,7 @@
       "maxzoom": 12,
       "filter": ["all", ["==", "$type", "Point"], ["==", "class", "state"]],
       "layout": {
-        "text-field": "{name:nonlatin}",
+        "text-field": "{name:latin}\n{name:nonlatin}",
         "text-font": ["Metropolis Regular", "Noto Sans Regular"],
         "text-size": 10,
         "text-transform": "uppercase",
