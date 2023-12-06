@@ -52,7 +52,7 @@
 
 { "type": "Feature", "properties": { "fid": 24, "Name": "Ворог тікав у бік Шевченкового", "No": 5, "id": "d24", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.201640918770075, 46.846260851264475 ] } },
 
-{ "type": "Feature", "properties": { "fid": 26, "Name": "Росіяни атакували танками зі сторони пивзаводу", "No": 5, "id": "d26", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.058773397153175, 46.869491593436685 ] } },
+{ "type": "Feature", "properties": { "fid": 26, "Name": "Кульбакине", "No": 5, "id": "d26", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 32.080819, 46.910289  ] } },
 
 { "type": "Feature", "properties": { "fid": 27, "Name": "Удар ракетою по казармі 79-ї бригади", "No": 5, "id": "d27", "side": "ru" }, "geometry": { "type": "Point", "coordinates": [ 31.994529, 47.003739 ] } },
 
